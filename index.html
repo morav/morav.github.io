@@ -23,7 +23,7 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href="/about/">About</a>
+      <a href="/about/">О мне</a>
     </div>
 </header>
 
@@ -31,7 +31,7 @@ layout: default
 <main class="content" role="main">
 
     {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured</span></h5>
+    <h5 class="index-headline featured"><span>Избранное</span></h5>
 
     <div class="container featured">
       {% for post in site.tags.featured %}
@@ -52,7 +52,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
+    <h5 class="index-headline normal"><span>Последние</span></h5>
     {% endif %}
 
     <div class="cf frame">
@@ -76,14 +76,14 @@ layout: default
 
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
+        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Старые записи</a>
       {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      <span class="page-number">Страница {{ paginator.page }} из {{ paginator.total_pages }}</span>
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">Newer posts &rarr;</a>
+          <a class="older-posts" href="/">Новые записи &rarr;</a>
         {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+          <a class="older-posts" href="/page{{paginator.previous_page}}">Новые записи &rarr;</a>
         {% endif %}
       {% endif %}
     </nav>
