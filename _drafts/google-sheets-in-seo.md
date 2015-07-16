@@ -8,3 +8,4 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 ---
 
 Все фишки которые можно вытворять с гугловскими таблицами
+Измерение скорости смотри покет

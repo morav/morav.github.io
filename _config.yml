@@ -32,6 +32,11 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
+    
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: "alexei-morozov"
+
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
