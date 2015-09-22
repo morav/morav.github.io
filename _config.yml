@@ -1,0 +1,62 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+  
+# Site settings
+title: "Заблуждения"
+description: > # this means to ignore newlines until "email:"
+   О работе и не тлоько
+
+email: morav@bk.ru
+#blog logo
+logo: "/assets/images/me.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Алексей Морозов'
+author: 'Алексей Морозов'
+author_image: "/assets/images/me.jpg"
+
+paginate:	5
+
+url: "http://morav.ru" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/morav
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+    
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: "alexei-morozov"
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: "UA-15171750-1"
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+#  - icon:	github
+#    url:	https://github.com/dirkfabisch
+#    desc:	Fork me on github
+#    share_url:
+#    share_title:
+#    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
